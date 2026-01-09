@@ -1,53 +1,37 @@
-🎯 Aim of the Project
+# Food Sharing React App
 
-Enable users to purchase food items in bulk
+A frontend React application for a food-sharing platform where users can split the cost of bulk food items.
 
-Allow users to share food with others easily
+## Overview
 
-Promote community support and food affordability
+This project implements a mobile-first, responsive UI for:
 
-Reduce food waste through shared consumption
+- Viewing available bulk food items.
+- Creating sharing groups (up to 4 users).
+- Calculating split costs based on group size.
+- Simulating checking out.
 
-Key Features
+## Tech Stack
 
-User-friendly and responsive interface
+- React 18
+- Vite
+- React Router DOM
+- Plain CSS (Modular & Variables)
 
-Bulk food purchasing system
+## How to Run
 
-Food sharing functionality
+1.  Install dependencies:
+    ```bash
+    npm install
+    ```
+2.  Start the development server:
+    ```bash
+    npm run dev
+    ```
+3.  Open http://localhost:5173 to view the app.
 
-Clean and intuitive UI/UX
+## Folder Structure
 
-Mobile-friendly design
-
-Technologies Used
-
-HTML
-
-CSS
-
-JavaScript
-
-React
-
-Why This Project?
-
-This project was built to demonstrate how frontend development can be used to:
-
-Solve human and community problems
-
-Build scalable and meaningful web applications
-
-Translate real-world needs into functional digital solutions
-
-Future Improvements
-
-User authentication
-
-Payment integration
-
-Location-based sharing
-
-Backend and database support
-
-Admin dashboard
+- `src/components`: Reusable UI components (Navbar, FoodCard, etc.)
+- `src/pages`: Main application views (Home, Register, Payment)
+- `src/styles`: CSS variables and global styles
